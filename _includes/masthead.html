@@ -34,6 +34,9 @@
         {{ user.location }}
       </div>
     {% endif %}
+    <div class="{{ metadata_styles }}">
+        <a href="resume" style="color: #FFFFFFFF"> Resume <br> </a>
+    </div>
     {% if site.social_media %}
       <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
         {% for account in site.social_media %}
@@ -47,7 +50,6 @@
         {% endfor %}
       </div>
     {% endif %}
-    <a href="resume" style="color: #FFFFFFFF"> Resume <br> <br> </a>
     {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire
       </span>
