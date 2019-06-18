@@ -1,3 +1,12 @@
+# My Personal Website
+
+Using a combination of the forked repository (with instructions given below the horizontal line) and a design from HTML5 up, I created my own personal website that is currently run on Kironb.github.io. I made a couple of style adjustments in CSS and HTML from the template and added javascript to help make the send message functionality.
+
+To run a local copy, you can clone my repository and follow the instructions as were initially given from the forked repository listed below. In my license, I combined both the MIT license from GitHub as well as the license from HTML5 up in the same page, visible in the license tab on GitHub.
+
+
+<hr>
+
 # Get started building your personal website
 
 ### Showcase your software development skills
